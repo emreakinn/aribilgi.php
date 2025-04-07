@@ -12,7 +12,27 @@
 <body>
     
 
-
+<section id="adminPage">
+    <div class="container-fluid">
+        <div class="row bg-dark text-white">
+            <div class="col-md-2">
+                Proje Adı
+            </div>
+            <div class="col-md-10 text-end">
+                <a href="logout.php" class="text-white text-decoration-none">Güvenli Çıkış</a>
+            </div>
+        </div>
+        <div class="row" style="height: 97.4vh;">
+            <div class="col-md-2 bg-dark py-3" id="adminNav">
+                <a href="dashboard.php">Başlangıç</a> <br>
+                <a href="logout.php" class="text-warning">Günveli Çıkış</a>
+            </div>
+            <div class="col-md-10 bg-light py-3">
+                Admin Panel
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
